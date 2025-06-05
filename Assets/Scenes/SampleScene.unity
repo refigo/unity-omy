@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: -0.006, y: 0.011, z: 0}
   inertiaTensor: {x: 0.000001, y: 0.000001, z: 0.000001}
   inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2046,7 +2046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: 0.019090688, y: 0.10996667, z: 0.00013318256}
   inertiaTensor: {x: 0.0011581733, y: 0.0016228417, z: 0.0017547514}
   inertiaTensorRotation: {x: 0.17922771, y: -0.98380756, z: 0.0000065850713, w: 0.000036673264}
@@ -5375,7 +5375,7 @@ GameObject:
   - component: {fileID: 172670281}
   - component: {fileID: 172670280}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: om-y camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5394,7 +5394,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 832575519}
+  m_Father: {fileID: 1939929248}
   m_LocalEulerAnglesHint: {x: 27.3, y: 0, z: 0}
 --- !u!114 &172670280
 MonoBehaviour:
@@ -12445,7 +12445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: 0.080594055, y: 0.009302934, z: 0.000011080146}
   inertiaTensor: {x: 0.00019165983, y: 0.0005674148, z: 0.0006369104}
   inertiaTensorRotation: {x: 0.5303083, y: -0.46498173, z: -0.46907163, w: 0.531542}
@@ -14123,7 +14123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: -0, y: 0.032, z: 0}
   inertiaTensor: {x: 0.000001, y: 0.000001, z: 0.000001}
   inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -14274,7 +14274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: -0.016184244, y: 0.10360634, z: 0.000011405379}
   inertiaTensor: {x: 0.004497175, y: 0.050357603, z: 0.051731974}
   inertiaTensorRotation: {x: 0.71047753, y: -0.7037197, z: 0.00043555853, w: 0.0004314101}
@@ -14391,12 +14391,12 @@ MonoBehaviour:
   selectedJoint: 
   selectedIndex: 0
   control: 0
-  stiffness: 500
-  damping: 500
-  forceLimit: 0
-  speed: 5
+  stiffness: 100
+  damping: 100
+  forceLimit: 1000
+  speed: 30
   torque: 100
-  acceleration: 5
+  acceleration: 10
   highLightColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &823699114
 MonoBehaviour:
@@ -14430,7 +14430,7 @@ Transform:
   - {fileID: 1629658865}
   - {fileID: 1124051910}
   - {fileID: 1686483883}
-  m_Father: {fileID: 832575519}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
@@ -14478,9 +14478,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 823699115}
-  - {fileID: 172670279}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &849479776
@@ -26146,7 +26144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: 0.006, y: 0.011, z: 0}
   inertiaTensor: {x: 0.000001, y: 0.000001, z: 0.000001}
   inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -26526,7 +26524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: -0.10718481, y: 0.14117268, z: 0.00007814869}
   inertiaTensor: {x: 0.0027742179, y: 0.021922003, z: 0.022694424}
   inertiaTensorRotation: {x: 0.7035563, y: -0.7106395, z: -0.00032743206, w: -0.00033072356}
@@ -26920,7 +26918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: 0.005471127, y: -0.015897732, z: -0.00011063615}
   inertiaTensor: {x: 0.0022193727, y: 0.0027908073, z: 0.0030333693}
   inertiaTensorRotation: {x: 0.5776151, y: -0.8163088, z: 0.0005046548, w: 0.00071349036}
@@ -27071,7 +27069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: 0.10746667, y: 0.019090688, z: -0.00013318256}
   inertiaTensor: {x: 0.0011581733, y: 0.0016228417, z: 0.0017547514}
   inertiaTensorRotation: {x: 0.5689239, y: -0.82239014, z: -0.000021266162, w: -0.000030594598}
@@ -31731,7 +31729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: 0.034, y: 0.004, z: 0}
   inertiaTensor: {x: 0.000001, y: 0.000001, z: 0.000001}
   inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -31910,12 +31908,12 @@ MonoBehaviour:
   selectedJoint: 
   selectedIndex: 0
   control: 0
-  stiffness: 0
-  damping: 0
-  forceLimit: 0
-  speed: 5
+  stiffness: 10000
+  damping: 1000
+  forceLimit: 1000
+  speed: 300
   torque: 100
-  acceleration: 5
+  acceleration: 10
   highLightColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1686483885
 MonoBehaviour:
@@ -34805,7 +34803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: 0.0031903102, y: 0, z: 0}
   inertiaTensor: {x: 0.000008125431, y: 0.000005492618, z: 0.000002907576}
   inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -35901,6 +35899,7 @@ Transform:
   - {fileID: 702766469}
   - {fileID: 1788238346}
   - {fileID: 1589014358}
+  - {fileID: 172670279}
   m_Father: {fileID: 1315099238}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1939929249
@@ -35932,7 +35931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: -0.0013083991, y: 0.05507347, z: -0.004021582}
   inertiaTensor: {x: 0.004624027, y: 0.004979551, z: 0.00642077}
   inertiaTensorRotation: {x: 0.4884074, y: -0.5508914, z: -0.51162475, w: -0.4429639}
@@ -36083,7 +36082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayInertiaGizmo: 0
-  useUrdfData: 1
+  useUrdfData: 0
   centerOfMass: {x: -0.034, y: 0.004, z: 0}
   inertiaTensor: {x: 0.000001, y: 0.000001, z: 0.000001}
   inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -37836,3 +37835,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
+  - {fileID: 823699115}
